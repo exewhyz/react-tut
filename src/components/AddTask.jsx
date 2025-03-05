@@ -15,6 +15,8 @@ function AddTask(props) {
       completed: false,
     };
     setTodos((prev) => [newTask, ...prev]);
+    setName("");
+    setDescription("");
   };
   return (
     <>
@@ -43,3 +45,5 @@ function AddTask(props) {
 }
 
 export default AddTask;
+
+// https://github.com/exewhyz/react-tut
